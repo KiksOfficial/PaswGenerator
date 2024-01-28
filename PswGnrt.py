@@ -17,7 +17,7 @@ generated = generate_pass()
 mydb = mysql.connector.connect(
     host='localhost',
     user='root',
-    passwd='loseyourself',
+    passwd='1234',
     database='mydb'
 )
 cursor = mydb.cursor()
