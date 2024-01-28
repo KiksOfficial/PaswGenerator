@@ -9,7 +9,7 @@ CREATE TABLE kasutajad (
     pass_word VARCHAR(50)
 );
 
-INSERT INTO kasutajad (website, user_name, pass_word) VALUES ('Stuudiom', 'marcusariston@gmail.com', 'Pajusalutee9');
-INSERT INTO kasutajad (website, user_name, pass_word) VALUES ('Gmail', 'marcusariston@gmail.com', 'Pajusalutee9');
+INSERT INTO kasutajad (website, user_name, pass_word) VALUES ('Stuudiom', 'marcusariston@gmail.com', 'xxx');
+INSERT INTO kasutajad (website, user_name, pass_word) VALUES ('Gmail', 'marcusariston@gmail.com', 'xxx');
 SELECT * FROM kasutajad
 
