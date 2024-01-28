@@ -1,0 +1,15 @@
+-- Active: 1706108006316@@127.0.0.1@3306@mydb
+CREATE DATABASE mydb;
+
+SHOW TABLES FROM mydb; -- To display the tables in the database (after creating tables)
+
+CREATE TABLE kasutajad (
+    website VARCHAR(50),
+    user_name VARCHAR(50),
+    pass_word VARCHAR(50)
+);
+
+INSERT INTO kasutajad (website, user_name, pass_word) VALUES ('Stuudiom', 'marcusariston@gmail.com', 'Pajusalutee9');
+INSERT INTO kasutajad (website, user_name, pass_word) VALUES ('Gmail', 'marcusariston@gmail.com', 'Pajusalutee9');
+SELECT * FROM kasutajad
+
